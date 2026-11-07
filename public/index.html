@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff8ef" />
+  <title>Yuda Logo Design — Scan &amp; Pay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="floaties" id="floaties" aria-hidden="true"></div>
+  <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+    <span class="welcome-spark welcome-spark-one" aria-hidden="true">✦</span>
+    <span class="welcome-spark welcome-spark-two" aria-hidden="true">♥</span>
+    <div class="welcome-cat" aria-hidden="true"><svg viewBox="0 0 200 170"><use href="#cat" /></svg></div>
+    <p class="welcome-eyebrow">Hai, teman baik ✦</p>
+    <h1 id="welcome-title">Mau donasi<br /><em>atau kepo?</em></h1>
+    <p class="welcome-copy">Terima kasih sudah mampir ke sudut kecil Yuda.<br />Pilih jalanmu, semuanya boleh kok!</p>
+    <div class="welcome-actions">
+      <a class="choice choice-donate" id="donateBtn" href="https://sociabuzz.com/yudadesignn/tribe" target="_blank" rel="noopener noreferrer"><span class="choice-icon">♥</span><span><strong>Donasi</strong><small>ikut dukung karya lokal</small></span><b>↗</b></a>
+      <button class="choice choice-curious" id="curiousBtn" type="button"><span class="choice-icon">?</span><span><strong>Kepo</strong><small>lihat-lihat dulu juga boleh</small></span><b>↗</b></button>
+    </div>
+    <p class="welcome-foot">dibuat dengan penuh cinta oleh Yuda</p>
+  </section>
+  <section class="prank is-hidden" id="prank" aria-labelledby="prank-title">
+    <h1 id="prank-title">BOCAH ANJG KEPO WKWKW</h1>
+    <button id="backBtn" type="button">← balik lagi</button>
+  </section>
+  <main class="poster is-hidden" aria-label="Halaman pembayaran QRIS Yuda Logo Design">
+    <span class="sticker sticker-star" aria-hidden="true">✦</span>
+    <span class="sticker sticker-heart" aria-hidden="true">♥</span>
+    <header class="top">
+      <div class="brand-lockup"><span class="eyebrow">Punya Yuda</span><div class="qris-title"><span class="qris-word">QRIS<span class="qris-dot">.</span></span><span class="qris-sub">Pembayaran Nasional</span></div></div>
+      <div class="cat-wrap" aria-hidden="true"><span class="cat-sparkle">✦</span><svg class="cat cat-top" viewBox="0 0 200 170"><use href="#cat" /></svg></div>
+    </header>
+    <section class="card" aria-labelledby="merchant-name">
+      <div class="card-head"><span class="tiny-label">Scan untuk bayar</span><h1 id="merchant-name">Yuda Logo Design</h1><span class="pill">DUSUN 003</span><p class="nmid">NMID <span class="nmid-divider">•</span> <span id="nmid">ID1025403537711</span></p></div>
+      <div class="qr-frame"><div class="qr-box"><img id="qr" src="assets/qris.png" alt="Kode QRIS Yuda Logo Design" onerror="this.closest('.qr-box').classList.add('missing')" /><p class="qr-missing">Letakkan gambar QR kamu di<br /><code>public/assets/qris.png</code></p></div><span class="qr-corner corner-tl" aria-hidden="true"></span><span class="qr-corner corner-tr" aria-hidden="true"></span><span class="qr-corner corner-bl" aria-hidden="true"></span><span class="qr-corner corner-br" aria-hidden="true"></span></div>
+      <p class="scan-hint"><span class="sparkle-dot">✦</span> Buka aplikasi pembayaran favoritmu <span class="sparkle-dot">✦</span></p>
+    </section>
+    <aside class="scan-pay" aria-hidden="true"><span>scan</span><strong>&amp;</strong><span>pay</span></aside>
+    <div class="bubble" aria-hidden="true">Makasih ya! <span>♥</span></div>
+    <svg class="cat cat-bottom" viewBox="0 0 200 170" aria-hidden="true"><use href="#cat" /></svg>
+    <section class="pay-with" aria-labelledby="payment-methods"><span class="pay-label" id="payment-methods">Bisa bayar pakai</span><ul><li class="dana">DANA</li><li class="gopay">gopay</li><li class="ovo">OVO</li><li class="shopee">ShopeePay</li><li class="linkaja">LinkAja!</li></ul></section>
+    <footer class="support"><span>♥</span> Dukung karya lokal <span>♥</span><a href="https://sociabuzz.com/yudadesignn/tribe" target="_blank" rel="noopener noreferrer">Dukung lewat SociaBuzz ↗</a></footer>
+  </main>
+  <div class="actions" aria-label="Aksi QRIS"><button id="copyBtn" type="button"><span class="button-icon">⧉</span> Salin NMID</button><a id="downloadBtn" href="assets/qris.png" download="qris-yuda-logo-design.png"><span class="button-icon">↓</span> Unduh QR</a></div>
+  <p class="toast" id="toast" role="status" aria-live="polite"></p>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="cat">
+    <path d="M45 60 L55 12 L95 42 Z" fill="#29252a" /><path d="M155 60 L145 12 L105 42 Z" fill="#29252a" /><path d="M58 48 L61 26 L80 40 Z" fill="#ff91ae" /><path d="M142 48 L139 26 L120 40 Z" fill="#ff91ae" />
+    <ellipse cx="100" cy="88" rx="62" ry="54" fill="#fffdf9" stroke="#29252a" stroke-width="4" /><path d="M40 80 Q55 40 100 38 Q70 60 72 100 Q50 100 40 80Z" fill="#29252a" /><path d="M38 88 Q40 24 100 22 Q160 24 162 88" fill="none" stroke="#29252a" stroke-width="9" stroke-linecap="round" />
+    <rect x="26" y="70" width="22" height="42" rx="10" fill="#29252a" /><rect x="152" y="70" width="22" height="42" rx="10" fill="#29252a" /><rect x="30" y="76" width="8" height="30" rx="4" fill="#ff91ae" /><rect x="162" y="76" width="8" height="30" rx="4" fill="#ff91ae" />
+    <path d="M70 88 Q78 78 86 88 M114 88 Q122 78 130 88" fill="none" stroke="#29252a" stroke-width="4" stroke-linecap="round" /><ellipse cx="66" cy="102" rx="9" ry="6" fill="#ffb4c7" opacity=".85" /><ellipse cx="134" cy="102" rx="9" ry="6" fill="#ffb4c7" opacity=".85" /><path d="M88 104 Q100 124 112 104 Z" fill="#ff6d96" stroke="#29252a" stroke-width="3" stroke-linejoin="round" /><path d="M96 100 L104 100 L100 106 Z" fill="#ffb4c7" /><ellipse cx="62" cy="152" rx="20" ry="14" fill="#fffdf9" stroke="#29252a" stroke-width="4" /><ellipse cx="138" cy="152" rx="20" ry="14" fill="#fffdf9" stroke="#29252a" stroke-width="4" />
+  </g></defs></svg>
+  <script src="script.js"></script>
+</body>
+</html>
