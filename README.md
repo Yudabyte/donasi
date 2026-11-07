@@ -29,3 +29,11 @@ public/
 ```
 
 Ganti port dengan `PORT=8080 npm run dev`.
+
+## Deploy gratis 24 jam
+
+Repository ini sudah memiliki workflow GitHub Pages. Setelah workflow selesai, situs dapat dibuka di:
+
+https://yudabyte.github.io/donasi/
+
+Aktifkan satu kali melalui **Settings → Pages → Source: GitHub Actions** di repository GitHub.
